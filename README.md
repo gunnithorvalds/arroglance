@@ -1,4 +1,4 @@
-arroglance
+Arroglance
 ==========
 
 Download the Arroglance App
