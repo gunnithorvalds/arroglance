@@ -8,6 +8,18 @@ body {
 	
 }
 
+div.full-page {
+    width:100%;
+
+}
+
+div#page-1 {background-color: #ED7272;}
+div#page-2 {background-color: #83A5A1;}
+div#page-3 {background-color: #A2C6DD;}
+div#page-4 {background-color: #B0DDA4;}
+div#page-5 {background-color: #84ABBC;}
+div#page-6 {background-color: #B5AE91;}
+
 .header, .footer {
 	height: 70px;
 	width: 100%;
@@ -41,9 +53,11 @@ body {
 
 }
 
-#intro {
-	position: relative;
-	top: 20%;
+.intro {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -210px 0 0 -100px;
 }
 
 .logo img {
@@ -52,13 +66,11 @@ body {
 	margin: 0 auto;
 }
 
-.intro {
-	text-align: center;
-}
-
-#description {
-	position: relative;
-	margin: 350px 0 240px 0;
+.description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -285px 0 0 -120px;
 
 }
 
@@ -73,13 +85,15 @@ body {
 	margin-bottom: 20px;
 }
 
-#demo {
-	
+.demo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -240px 0 0 -585px;
 }
 
 .phones {
 	position: relative;
-	margin-bottom: 11%;
 }
 
 .first {
