@@ -1,0 +1,214 @@
+/* Content-ið
+ * --------------------------------------- */
+
+body {
+	background: url('img/background.jpg') no-repeat center center;
+	background-size: cover;
+	-webkit-font-smoothing:antialiased;
+	font-size: 100%;
+}
+
+.intro {
+	width: 40em;
+	margin: auto;
+}
+
+.intro p {
+	font-family: "brandon-grotesque",sans-serif;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	color: #fff;
+	letter-spacing: .1em;
+	font-weight: 300;
+	text-align: left;
+}
+
+.intro p span {
+	font-weight: 500;
+	color: #07798a;
+}
+
+.demo img {
+	margin: 3em;
+}
+
+.instagram {
+	display: inline-block;
+	background-color: #fff;
+	border: 20px solid #fff;
+}
+
+.gif, .hashtag {
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+.hashtag {
+	padding: 70px 108px 0 40px;
+}
+
+.hashtag p {
+	font-family: "brandon-grotesque",sans-serif;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	color: #333;
+	letter-spacing: .1em;
+	font-weight: 500;
+	text-align: left;
+}
+
+.hashtag p span {
+	font-weight: 700;
+	color: #07798a;
+}
+
+
+
+/* Scroll
+ * --------------------------------------- */
+
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	
+	position: relative;
+}
+.section{
+	text-align:center;
+}
+
+
+/* Rammi
+ * --------------------------------------- */
+
+#top, #bottom, #left, #right {
+background: white;
+position: fixed;
+z-index: 999;
+}
+#left, #right {
+  top: 0; bottom: 0;
+  width: 70px;
+  }
+ #left { left: 0; }
+  #right { right: 0; }
+  
+#top, #bottom {
+  left: 0; right: 0;
+  height: 70px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+.app-store {
+	text-align: center;
+	margin-top: 1.65em;
+}
+.app-store a {
+	font-family: "brandon-grotesque",sans-serif;
+	text-transform: uppercase;
+	font-size: .85em;
+	font-weight: 300;
+	letter-spacing: .1em;
+	color: #555;
+	text-decoration: none;
+}
+.app-store a:hover {
+	text-decoration: none;
+	color: #07798a;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+/* Content-ið
+ * --------------------------------------- */
+
+
+img.phone {
+	height: 18em;
+	width: auto;
+}
+
+.intro {
+	width: 15em;
+	margin: auto;
+}
+
+.intro p {
+	font-family: "brandon-grotesque",sans-serif;
+	text-transform: uppercase;
+	font-size: .75em;
+	line-height: 1.45em;
+	color: #fff;
+	letter-spacing: .1em;
+	font-weight: 300;
+	text-align: left;
+}
+
+.instagram {
+	width: 14em;
+}
+
+.gif, .hashtag {
+	display: inline-block;
+	float: none;
+	margin: 0;
+}
+
+.gif img {
+	width: 14em;
+}
+
+.hashtag {
+	padding: 1.2em 0 0 0;
+}
+
+.controlArrow.prev{
+	left: 18px;
+	width: 0px;
+	border-width: 12px 13px 12px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.controlArrow.next{  
+	right: 18px;
+	border-width: 12px 0 12px 13px;
+	border-color: transparent transparent transparent #fff;
+}
+
+
+	/* Rammi
+ * --------------------------------------- */
+
+#left, #right {
+  top: 0; bottom: 0;
+  width: 0;
+  }
+  
+#top {
+  left: 0; right: 0;
+  height: 0;
+}
+
+#bottom {
+  background: rgba(0, 0, 0, 0);
+  left: 0; right: 0;
+  height: 40px;
+}
+
+.app-store {
+	text-align: center;
+	margin-top: .65em;
+}
+
+.app-store a {
+	color: #fff;
+}
+
+}
+
+
